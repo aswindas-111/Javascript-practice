@@ -1,4 +1,3 @@
-alert("hi this is the alert box, Welcome")
-        console.log("hi")
-
-document.write("Welcome")
+console.log(a)
+var a=10;
+console.log(a)

@@ -23,3 +23,19 @@ function add(a,b,functn){
 }
 
 add(10,500,sum)
+
+
+
+//countdown program using setTimeout
+
+function countDown(num){
+    console.log(num)
+    num--
+    if (num>=0){
+        setTimeout(function(){
+            countDown(num);
+        },1000);
+    }
+};
+
+countDown(10)

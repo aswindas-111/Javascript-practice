@@ -7,6 +7,8 @@ for (i=0;i<programming_language.length;i++)
     
 }
 
+
+
 //for loop inside a loop
 
 for(let i=1;i<=5;i++)
@@ -18,4 +20,14 @@ for(let i=1;i<=5;i++)
         console.log("hi " + j)
     }
     
+}
+
+
+//while loop 
+
+let i=1
+while(i<=10)
+{
+    console.log(i)
+    i++
 }
